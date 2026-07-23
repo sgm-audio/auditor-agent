@@ -11,7 +11,7 @@ setup(
     description="MAAPS Auditor Agent: Local DSP audio analysis and quality gatekeeper.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/scottmills306/auditor-agent",
+    url="https://github.com/sgm-audio/auditor-agent",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

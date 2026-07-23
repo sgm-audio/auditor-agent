@@ -22,7 +22,7 @@ pip install maaps-auditor
 Or install from source:
 
 ```bash
-git clone https://github.com/scottmills306/auditor-agent.git
+git clone https://github.com/sgm-audio/auditor-agent.git
 cd auditor-agent
 pip install -e .
 ```
