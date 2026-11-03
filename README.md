@@ -15,11 +15,7 @@ Local DSP audio analysis and quality gatekeeper for the MAAPS (Multi-Agent Audio
 
 ## Installation
 
-```bash
-pip install maaps-auditor
-```
-
-Or install from source:
+Not on PyPI. Install from source:
 
 ```bash
 git clone https://github.com/sgm-audio/auditor-agent.git
