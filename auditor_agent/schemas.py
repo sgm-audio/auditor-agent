@@ -33,7 +33,7 @@ class SonicSignature(BaseModel):
     bit_depth: int = Field(default=24, ge=16, le=32)
     channels: int = Field(default=2, ge=1, le=8)
 
-    @field_validator("key")
+    @field_validator("key", mode="before")
     @classmethod
     def validate_key(cls, v: str) -> str:
         v_lower = v.lower().replace(" ", "")
